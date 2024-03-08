@@ -100,11 +100,11 @@ var VanillaTilt = (function () {
        * @return {Node}
        */
       addEventListeners() {
-        this.onMouseEnterBind = this.onMouseEnter.bind(this);
-        this.onMouseMoveBind = this.onMouseMove.bind(this);
-        this.onMouseLeaveBind = this.onMouseLeave.bind(this);
-        this.onWindowResizeBind = this.onWindowResize.bind(this);
-        this.onDeviceOrientationBind = this.onDeviceOrientation.bind(this);
+        // this.onMouseEnterBind = this.onMouseEnter.bind(this);
+        // this.onMouseMoveBind = this.onMouseMove.bind(this);
+        // this.onMouseLeaveBind = this.onMouseLeave.bind(this);
+        // this.onWindowResizeBind = this.onWindowResize.bind(this);
+        // this.onDeviceOrientationBind = this.onDeviceOrientation.bind(this);
   
         this.elementListener.addEventListener(
           "mouseenter",
